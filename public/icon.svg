@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Black rounded rectangle background -->
+  <rect width="512" height="512" rx="80" ry="80" fill="#000000"/>
+
+  <!-- "905" in bold green, centered -->
+  <text x="256" y="230" text-anchor="middle" dominant-baseline="central"
+        font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
+        font-weight="900" font-size="180" fill="#30D158" letter-spacing="-4">
+    905
+  </text>
+
+  <!-- "WOOD" in white, smaller, below -->
+  <text x="256" y="330" text-anchor="middle" dominant-baseline="central"
+        font-family="'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
+        font-weight="700" font-size="72" fill="#F5F5F7" letter-spacing="12">
+    WOOD
+  </text>
+
+  <!-- Green horizontal line accent -->
+  <line x1="156" y1="370" x2="356" y2="370" stroke="#30D158" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Subtle wood grain lines below accent -->
+  <path d="M170 395 Q220 388 270 395 Q320 402 370 395" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M160 410 Q210 403 260 410 Q310 417 360 410" stroke="#FFFFFF" stroke-width="1.5" fill="none" opacity="0.25"/>
+  <path d="M175 425 Q225 418 275 425 Q325 432 365 425" stroke="#FFFFFF" stroke-width="1" fill="none" opacity="0.15"/>
+</svg>
